@@ -206,13 +206,13 @@ tags:
 
 
 <div id="img_source" style="display:none;">
-  <img id="bad1" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/pew-pew/bad2.png?w=750" data-recalc-dims="1" />
+  <img id="bad1" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/bad2.png?w=750" data-recalc-dims="1" />
   <img id="bad2" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/bad3.png?w=750" data-recalc-dims="1" />
   <img id="bad3" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/bad1.png?w=750" data-recalc-dims="1" />
   <img id="good" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/good.png?w=750" data-recalc-dims="1" />
   <img id="suri" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/suri.png?w=750" data-recalc-dims="1" />
   <img id="vim" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/vim.png?w=750" data-recalc-dims="1" />
-  <img id="laser" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/laser11.png?resize=40%2C24"  data-recalc-dims="1" />
+  <img id="laser" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/laser1.png?resize=40%2C24"  data-recalc-dims="1" />
   <img id="boss" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/bc.png?resize=90%2C70"  data-recalc-dims="1" />
   <img id="explosion" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/explosion1.png?w=750" data-recalc-dims="1" />
 </div>
