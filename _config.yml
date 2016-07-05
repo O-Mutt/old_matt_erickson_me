@@ -1,20 +1,21 @@
 title: MattErickson (ME)
 email: matt@matterickson.me
-description: > This is a blog/portfolio of Matt Erickson (ME).  
-	A Minnesota native with a desire for clean code, travel, and all things food and beer.
+description: |
+    This is a blog/portfolio of Matt Erickson (ME).
+    A Minnesota native with a desire for clean code, travel, and all things food and beer.
 baseurl: ""
 url: "https://matterickson.me"
 highlighter: rouge
 twitter_username: MutMatt
 github_username: MutMatt
 google_play: ''
-google_plus_com: ''  # Community link
-google_plus_per: ''  #Personal link
+google_plus_com: ''      # Community link
+google_plus_per: ''      # Personal link
 facebook_app_id: 12345
 
 # Layout settings
-header_type: default  # values [ drawer, default ]
-post_type: highlight    # values [ highlight, default ]
+header_type: default      # values [ drawer, default ]
+post_type: highlight      # values [ highlight, default ]
 pagination_type: default  # values [ ops, default ]
 
 disqus: true
