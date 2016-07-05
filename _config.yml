@@ -1,3 +1,23 @@
-url: http://matterickson.me
-name: Matt Erickson (ME)
-description: Software Engineering a Better Tomorrow
+title: MattErickson (ME)
+email: matt@matterickson.me
+description: 
+	Software Engineering a Better Tomorrow
+baseurl: ""
+url: "https://matterickson.me"
+twitter_username: MutMatt
+github_username: MutMatt
+google_play: ''
+google_plus_com: ''  # Community link
+google_plus_per: ''  #Personal link
+facebook_app_id: 12345
+
+# Layout settings
+header_type: default  # values [ drawer, default ]
+post_type: highlight    # values [ highlight, default ]
+pagination_type: default  # values [ ops, default ]
+
+disqus: true
+disqus_shortname: 'MutMatt'
+
+# Build settings
+markdown: kramdown
