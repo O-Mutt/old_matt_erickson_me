@@ -29,34 +29,34 @@ $banner: nth($images, random(length($images)));
     color: #fff;
     height: 176px;
     &:nth-of-type(1) {
-        background: url('../images/headers/correct_size/#($img1)') center / cover;
+        background: url('../images/headers/correct_size/#{$img1}') center / cover;
     }
     &:nth-of-type(2) {
-        background: url('../images/headers/correct_size/#($img2)') center / cover;
+        background: url('../images/headers/correct_size/#{$img2}') center / cover;
     }
     &:nth-of-type(3) {
-        background: url('../images/headers/correct_size/#($img3)') center / cover;
+        background: url('../images/headers/correct_size/#{$img3}') center / cover;
     }
     &:nth-of-type(4) {
-        background: url('../images/headers/correct_size/#($img4)') center / cover;
+        background: url('../images/headers/correct_size/#{$img4}') center / cover;
     }
     &:nth-of-type(5) {
-        background: url('../images/headers/correct_size/#($img5)') center / cover;
+        background: url('../images/headers/correct_size/#{$img5}') center / cover;
     }
     &:nth-of-type(6) {
-        background: url('../images/headers/correct_size/#($img6)') center / cover;
+        background: url('../images/headers/correct_size/#{$img6}') center / cover;
     }
     &:nth-of-type(7) {
-        background: url('../images/headers/correct_size/#($img7)') center / cover;
+        background: url('../images/headers/correct_size/#{$img7}') center / cover;
     }
     &:nth-of-type(8) {
-        background: url('../images/headers/correct_size/#($img8)') center / cover;
+        background: url('../images/headers/correct_size/#{$img8}') center / cover;
     }
     &:nth-of-type(9) {
-        background: url('../images/headers/correct_size/#($img9)') center / cover;
+        background: url('../images/headers/correct_size/#{$img9}') center / cover;
     }
     &:nth-of-type(10) {
-        background: url('../images/headers/correct_size/#($img0)') center / cover;
+        background: url('../images/headers/correct_size/#{$img0}') center / cover;
     }   
   }
 
@@ -111,7 +111,7 @@ $banner: nth($images, random(length($images)));
     -ms-flex-pack: center;
     justify-content: center;
     min-height: 200px;
-    background: url('../images/headers/correct_size/#($banner)') center / cover;
+    background: url('../images/headers/correct_size/#{$banner}') center / cover;
   }
 
   button {
