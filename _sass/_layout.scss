@@ -9,25 +9,8 @@
   margin: 0 auto;
 }
 
-# ls > imageList.txt
-$images: ('1.jpg',
-'10.png',
-'11.jpg',
-'12.jpg',
-'13.jpg',
-'14.jpg',
-'15.jpg',
-'16.jpg',
-'17.jpg',
-'18.jpg',
-'2.png',
-'3.png',
-'4.jpg',
-'5.jpg',
-'6.jpg',
-'7.jpg',
-'8.jpg',
-'9.jpg');
+// ls > imageList.txt
+$images: ('1.jpg', '10.png', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '2.png', '3.png', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg');
 $img1: nth($images, random(length($images)));
 $img2: nth($images, random(length($images)));
 $img3: nth($images, random(length($images)));
