@@ -13,7 +13,7 @@ categories:
   - Development
   - Javascript
 ---
-## Sup?! Over the past few weeks/months I have been incredibly busy, as you can probably guess from my lack of attention to this site. That doesn&#8217;t, however, translate into getting nothing done. My 
+Sup?! Over the past few weeks/months I have been incredibly busy, as you can probably guess from my lack of attention to this site. That doesn&#8217;t, however, translate into getting nothing done. My 
 
 <a title="GitHub" href="https://github.com/Mutmatt/" target="_blank">GitHub</a> account tells a different story. As does my BitBucket account but that one is where I host all my private repos, sorry. 
 
