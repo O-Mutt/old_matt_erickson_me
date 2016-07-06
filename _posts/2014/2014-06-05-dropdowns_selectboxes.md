@@ -28,15 +28,15 @@ HTML structure
   
 
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;label class="custom-select"&gt;
-    &lt;select&gt;
-        &lt;option value="1"&gt;Value 1&lt;/option&gt;
-        &lt;option value="2"&gt;Value 2&lt;/option&gt;
-        &lt;option value="3"&gt;Value 3&lt;/option&gt;
-        &lt;option value="4"&gt;Value 4&lt;/option&gt;
-    &lt;/select&gt;
-&lt;/label&gt;
-</pre>
+```html
+    <select>
+        <option value="1">Value 1</option>
+        <option value="2">Value 2</option>
+        <option value="3">Value 3</option>
+        <option value="4">Value 4</option>
+    </select>
+</label>
+```
 
 
   
@@ -48,7 +48,8 @@ Style the containing label:
   
 
 
-<pre class="brush: css; title: ; notranslate" title="">.custom-select {
+```css
+.custom-select {
     position: relative;
 
     &:after {
@@ -66,15 +67,12 @@ Style the containing label:
         top: 0px;
         pointer-events: none; //Do not block the propagation of the pointer event
     }
-</pre>
+```
 
-
-  
 Now to style the select box itself which is really just hiding the arrows and coloring it.
-  
 
-
-<pre class="brush: css; title: ; notranslate" title="">select {
+```css
+select {
         outline: none; //hide the outline
         -webkit-appearance: none; //hide the arrows
         -moz-appearance: none; //hide the arrows
@@ -95,16 +93,18 @@ Now to style the select box itself which is really just hiding the arrows and co
         }
     }
 }
-</pre>
+```
 
 
-  
 Relatively simple, but there are some key pieces that need to be in place for this to work.
-  
 
-
-  * <css>pointer-event: none;</css>This is very important or the overlaid addon would catch the pointer even and we wouldn&#8217;t &#8220;click through&#8221; to the underlying select box. This is **NOT SUPPORTED** by anything less than ie11. (IE10 is still going to cause you fits here).
-  * <css>outline: none; //hide the outline -webkit-appearance: none; //hide the arrows -moz-appearance: none; //hide the arrows appearance: none; //hide the arrows cursor: pointer; //change the cursor</css> Also very important so we don&#8217;t see the stupid OS generated select boxes that change from one to the next.
+  * `pointer-event: none;` This is very important or the overlaid addon would catch the pointer even and we wouldn't "click through" to the underlying select box. This is **NOT SUPPORTED** by anything less than IE11. (IE10 is still going to cause you fits here).
+  * `outline: none; //hide the outline
+  * -webkit-appearance: none; //hide the arrows 
+  * -moz-appearance: none; //hide the arrows
+  * appearance: none; //hide the arrows
+  * cursor: pointer; //change the cursor
+  Also very important so we don't see the stupid OS generated select boxes that change from one to the next.
 
 
   
@@ -116,8 +116,11 @@ Your output should look something like this:
 <img src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/custom_select-300x28.png?fit=300%2C28" alt="Custom_Select" class="alignnone size-medium wp-image-554" srcset="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/custom_select.png?zoom=2&resize=600%2C60 1200w, https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/custom_select.png?zoom=3&resize=600%2C60 1800w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /> 
   
 Unlike some examples i&#8217;ve seen out on the internet here is an actual WORKING example of how this is supposed to look and behave in modern browsers. 
-  
 
-    <label class="custom-select-box full-width"> <select class="form-control"> <option value="1">Value 1</option> <option value="2">Value 2</option> <option value="3">Value 3</option> <option value="4">Value 4</option> </select> </label> 
+<label class="custom-select-box full-width"> <select class="form-control"> 
+  <option value="1">Value 1</option> <option value="2">Value 2</option> 
+  <option value="3">Value 3</option> <option value="4">Value 4</option>
+  </select>
+</label> 
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
