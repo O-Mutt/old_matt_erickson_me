@@ -4,6 +4,9 @@ description: Sofware Engineering a Better Tomorrow
 baseurl: ""
 url: "https://matterickson.me"
 
+#analytics
+google_analytics: 'UA-38520661-2'
+  
 # social
 twitter_username: MutMatt
 github_username: MutMatt
@@ -15,9 +18,9 @@ linkedin_username: matthewerickson
 # facebook_app_id: 12345
 
 # Layout settings
-header_type: default      # values [ drawer, default ]
-post_type: highlight      # values [ highlight, default ]
-pagination_type: default  # values [ ops, default ]
+header_type: drawer       # values [ drawer, default ]
+post_type: default        # values [ highlight, default ]
+pagination_type: ops      # values [ ops, default ]
 
 disqus: true
 disqus_shortname: 'MutMatt'

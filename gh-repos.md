@@ -18,7 +18,7 @@ layout: default
         <p>{{ repository.dscription }}</p>
       </div>
       <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ repository.url | prepend: site.baseurl }}">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ repository.html_url | prepend: site.baseurl }}">
           View on GitHub
         </a>
       </div>
@@ -27,9 +27,9 @@ layout: default
           <i class="material-icons">share</i>
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="repository-{{ repository.id }}">
-          <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ repository.url | prepend: site.baseurl }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
-          <li><a href="https://twitter.com/share?url={{ repository.url | prepend: site.baseurl }}&text={{ repository.full_name }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
-          <li><a href="https://plus.google.com/share?url={{ repository.url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
+          <li><a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_app_id}}&display=page&href={{ repository.html_url | prepend: site.baseurl }}&redirect_uri={{ site.baseurl }}" class="mdl-menu__item">Facebook</a></li>
+          <li><a href="https://twitter.com/share?url={{ repository.html_url | prepend: site.baseurl }}&text={{ repository.full_name }}&via={{ site.twitter_username }}" class="mdl-menu__item">Twitter</a></li>
+          <li><a href="https://plus.google.com/share?url={{ repository.html_url | prepend: site.baseurl }}" class="mdl-menu__item">Google+</a></li>
         </ul>
       </div>
     </div>
