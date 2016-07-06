@@ -20,7 +20,16 @@ tags:
   - SelectBox
 ---
 
-    <label class="custom-select-box full-width"> <select class="form-control"> <option value="1">Wow</option> <option value="2">this is</option> <option value="3">exactly what UX/UI</option> <option value="4">wanted this to look like!!!</option> </select> </label> UI/UX and dev is always a delicate balance. We had a recent request come in to style our dropdowns as the rest of our form fields. We are using bootstrap so our inputs are fairly customized. Here is how I did it, I will discuss the issues and caveats after the basic code for &#8220;modern&#8221; browsers.  
+<label class="custom-select-box full-width">
+  <select class="form-control">
+    <option value="1">Wow</option>
+    <option value="2">this is</option>
+    <option value="3">exactly what UX/UI</option>
+    <option value="4">wanted this to look like!!!</option>
+  </select> 
+</label> 
+
+UI/UX and dev is always a delicate balance. We had a recent request come in to style our dropdowns as the rest of our form fields. We are using bootstrap so our inputs are fairly customized. Here is how I did it, I will discuss the issues and caveats after the basic code for "modern" browsers.  
 
 
   
