@@ -25,34 +25,34 @@ $banner: nth($images, random(length($images)));
 
 // Cards styles
 .mdl-card {
-    &:nth-of-type(1) .mdl-card__title  {
+    &:nth-of-type(1n) .mdl-card__title  {
         background: url('../images/headers/correct_size/#{$img1}') center / cover;
     }
-    &:nth-of-type(2) .mdl-card__title  {
+    &:nth-of-type(2n) .mdl-card__title  {
         background: url('../images/headers/correct_size/#{$img2}') center / cover;
     }
-    &:nth-of-type(3) .mdl-card__title  {
+    &:nth-of-type(3n) .mdl-card__title  {
         background: url('../images/headers/correct_size/#{$img3}') center / cover;
     }
-    &:nth-of-type(4) .mdl-card__title  {
+    &:nth-of-type(4n) .mdl-card__title  {
         background: url('../images/headers/correct_size/#{$img4}') center / cover;
     }
-    &:nth-of-type(5) .mdl-card__title  {
+    &:nth-of-type(5n) .mdl-card__title  {
         background: url('../images/headers/correct_size/#{$img5}') center / cover;
     }
-    &:nth-of-type(6) .mdl-card__title  {
+    &:nth-of-type(6n) .mdl-card__title  {
         background: url('../images/headers/correct_size/#{$img6}') center / cover;
     }
-    &:nth-of-type(7) .mdl-card__title  {
+    &:nth-of-type(7n) .mdl-card__title  {
         background: url('../images/headers/correct_size/#{$img7}') center / cover;
     }
-    &:nth-of-type(8) .mdl-card__title {
+    &:nth-of-type(8n) .mdl-card__title {
         background: url('../images/headers/correct_size/#{$img8}') center / cover;
     }
-    &:nth-of-type(9) .mdl-card__title {
+    &:nth-of-type(9n) .mdl-card__title {
         background: url('../images/headers/correct_size/#{$img9}') center / cover;
     }
-    &:nth-of-type(10) .mdl-card__title {
+    &:nth-of-type(10n) .mdl-card__title {
         background: url('../images/headers/correct_size/#{$img0}') center / cover;
     }
     .mdl-card__title {
