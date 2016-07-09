@@ -7,8 +7,8 @@ layout: default
 
 <div class="page-content">
   <div class="mdl-grid">
-    {% for repository in (site.github.public_repositories | sort: "stargazers_count" | reverse) %}
-
+    {% assign sorted_repos = site.github.public_repositories | sort: "stargazers_count" | reverse %}
+    {% for repository in sorted_repos %}
     <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
       <div class="mdl-card__title" {% if repository.image %} style="background: url('{{ repository.image }}') center/cover;" {% endif %}>
         <h2 class="mdl-card__title-text">{{ repository.name }}</h2>
