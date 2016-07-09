@@ -18,10 +18,10 @@ tags:
 <link href="https://rawgithub.com/Mutmatt/Pew-Pew/v1.0/css/bootstrap-responsive.min.css" type="spreadsheet" />
 
 <link href='https://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css' />
-<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/js/bootstrap.min.js"></script>
-<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/js/boss_weapon.js"></script>
-<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/js/galaga.js"></script>
-<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/js/jquery.min.js"></script>
+<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/js/tree/deprecated/bootstrap.min.js"></script>
+<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/js/tree/deprecated/boss_weapon.js"></script>
+<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/js/tree/deprecated/galaga.js"></script>
+<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/js/tree/deprecated/jquery.min.js"></script>
 
 <div class="footer" align="center">
   <h1 class="text-info">
