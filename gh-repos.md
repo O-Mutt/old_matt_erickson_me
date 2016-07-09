@@ -22,17 +22,19 @@ layout: default
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ repository.html_url | prepend: site.baseurl }}">
           View on GitHub
         </a>
-        <div id="stars-{{repository.name}}" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.stargazers_count}}">stars</div>
-        <div class="mdl-tooltip" for="stars-{{repository.name}}">
-          Stars
-        </div>
-        <div id="forks-{{repository.name}}" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.forks_count}}">call_split</div>
-        <div class="mdl-tooltip" for="forks-{{repository.name}}">
-          Forks
-        </div>
-        <div id="watchers-{{repository.name}}" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.watchers_count}}">remove_red_eye</div>
-        <div class="mdl-tooltip" for="watchers-{{repository.name}}">
-          Watchers
+        <div class="mdl-fab-container-right">
+          <div id="stars-{{repository.name}}" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.stargazers_count}}">stars</div>
+          <div class="mdl-tooltip" for="stars-{{repository.name}}">
+            Stars
+          </div>
+          <div id="forks-{{repository.name}}" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.forks_count}}">call_split</div>
+          <div class="mdl-tooltip" for="forks-{{repository.name}}">
+            Forks
+          </div>
+          <div id="watchers-{{repository.name}}" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.watchers_count}}">remove_red_eye</div>
+          <div class="mdl-tooltip" for="watchers-{{repository.name}}">
+            Watchers
+          </div>
         </div>
       </div>
       <div class="mdl-card__menu">

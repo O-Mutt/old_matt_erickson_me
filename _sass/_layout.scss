@@ -26,10 +26,11 @@ $postHeader: nth($images, random(length($images)));
 .mdl-card {
     @include random-cards();
     
-    .mdl-card__title, 
-    .mdl-card__title a {
+    .mdl-card__title {
+      height: 176px;
+      a{
         color: #fff;
-        height: 176px;
+      }
     }
 
   .mdl-card__supporting-text > span { color: #9F9F9F; }
@@ -63,10 +64,21 @@ $postHeader: nth($images, random(length($images)));
   }
 
   .mdl-card__actions {
+    position: relative;
     border-top: 1px solid rgba(0, 0, 0, 0.12);
     margin: 0;
     padding: 4px 40px;
     color: inherit;
+    .mdl-overlay-fab {
+      position: absolute;
+      right: 20px;
+      top: -30px;
+    }
+    .mdl-fab-container-right {
+      display: inline-block;
+      float: right;
+      padding-top: 5px;
+    }
   }
 
   header {
