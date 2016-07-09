@@ -41,7 +41,27 @@ $postHeader: nth($images, random(length($images)));
       }
     }
 
-  .mdl-card__supporting-text > span { color: #9F9F9F; }
+  .mdl-card__supporting-text  {
+    max-height: 300px;
+    & > span { 
+      color: #9F9F9F;
+    }
+  }
+
+  .mdl-card__actions {
+    position: relative;
+    min-height: 55px;
+    .mdl-overlay-fab {
+      position: absolute;
+      right: 20px;
+      top: -30px;
+    }
+    .mdl-fab-container-right {
+      display: inline-block;
+      float: right;
+      padding-top: 5px;
+    }
+  }
 
   .mdl-card__menu {
     color: #fff;
@@ -102,19 +122,4 @@ $postHeader: nth($images, random(length($images)));
     right: 8px;
   }
 
-}
-
-.mdl-card__actions {
-  position: relative;
-  min-height: 35px;
-  .mdl-overlay-fab {
-    position: absolute;
-    right: 20px;
-    top: -30px;
-  }
-  .mdl-fab-container-right {
-    display: inline-block;
-    float: right;
-    padding-top: 5px;
-  }
 }
