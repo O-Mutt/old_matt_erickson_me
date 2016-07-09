@@ -43,6 +43,7 @@ $postHeader: nth($images, random(length($images)));
 
   .mdl-card__supporting-text  {
     max-height: 300px;
+    min-height: 39px; //one line of text, currently (7/9/16)
     & > span { 
       color: #9F9F9F;
     }
