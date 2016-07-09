@@ -28,6 +28,7 @@ $postHeader: nth($images, random(length($images)));
     
     .mdl-card__title {
       height: 176px;
+      color: #fff;
       a {
         color: #fff;
         text-decoration: none;
