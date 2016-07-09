@@ -14,7 +14,7 @@ layout: default
         <p>{{ content }}</p>
       </article>
       <!-- Disqus comments -->
-      {% if site.disqus and page.allow_comments == false %}
+      {% if site.disqus and page.allow_comments != false %}
       <div>
         <h3>Comments</h3>
         {% include disqus.html %}
