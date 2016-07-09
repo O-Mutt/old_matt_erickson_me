@@ -35,45 +35,45 @@ tags:
 
 
 <div id="img_source" style="display:none;">
-  <img id="bad1" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/bad2.png?w=750" data-recalc-dims="1" />
-  <img id="bad2" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/bad3.png?w=750" data-recalc-dims="1" />
-  <img id="bad3" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/bad1.png?w=750" data-recalc-dims="1" />
-  <img id="good" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/good.png?w=750" data-recalc-dims="1" />
-  <img id="suri" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/suri.png?w=750" data-recalc-dims="1" />
-  <img id="vim" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/vim.png?w=750" data-recalc-dims="1" />
-  <img id="laser" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/laser1.png?resize=40%2C24"  data-recalc-dims="1" />
-  <img id="boss" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/bc.png?resize=90%2C70"  data-recalc-dims="1" />
-  <img id="explosion" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/explosion1.png?w=750" data-recalc-dims="1" />
+  <img id="bad1" src="https://raw.githubusercontent.com/Mutmatt/pew-pew/img/tree/deprecated/bad2.png?w=750" data-recalc-dims="1" />
+  <img id="bad2" src="https://raw.githubusercontent.com/Mutmatt/pew-pew/img/tree/deprecated/bad3.png?w=750" data-recalc-dims="1" />
+  <img id="bad3" src="https://raw.githubusercontent.com/Mutmatt/pew-pew/img/tree/deprecated/bad1.png?w=750" data-recalc-dims="1" />
+  <img id="good" src="https://raw.githubusercontent.com/Mutmatt/pew-pew/img/tree/deprecated/good.png?w=750" data-recalc-dims="1" />
+  <img id="suri" src="https://raw.githubusercontent.com/Mutmatt/pew-pew/img/tree/deprecated/suri.png?w=750" data-recalc-dims="1" />
+  <img id="vim" src="https://raw.githubusercontent.com/Mutmatt/pew-pew/img/tree/deprecated/vim.png?w=750" data-recalc-dims="1" />
+  <img id="laser" src="https://raw.githubusercontent.com/Mutmatt/pew-pew/img/tree/deprecated/laser1.png?resize=40%2C24"  data-recalc-dims="1" />
+  <img id="boss" src="https://raw.githubusercontent.com/Mutmatt/pew-pew/img/tree/deprecated/bc.png?resize=90%2C70"  data-recalc-dims="1" />
+  <img id="explosion" src="https://raw.githubusercontent.com/Mutmatt/pew-pew/img/tree/deprecated/explosion1.png?w=750" data-recalc-dims="1" />
 </div>
 <audio id="sound0">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga0.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga0.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound1">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga1.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga1.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound2">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga2.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga2.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound3">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga3.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga3.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound4">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga4.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga4.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound5">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga5.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga5.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound6">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga6.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga6.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound7">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga7.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga7.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound8">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga8.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga8.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound9">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga9.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga9.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound11">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga11.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga11.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound12">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga12.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga12.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound13">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga13.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga13.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound14">
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga14.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga14.wav"></source> Your browser doesn&#8217;t support our audio files </audio> This project is also available on 
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga0.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga0.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound1">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga1.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga1.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound2">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga2.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga2.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound3">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga3.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga3.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound4">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga4.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga4.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound5">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga5.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga5.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound6">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga6.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga6.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound7">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga7.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga7.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound8">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga8.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga8.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound9">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga9.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga9.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound11">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga11.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga11.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound12">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga12.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga12.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound13">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga13.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga13.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound14">
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga14.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/pew-pew/media/tree/deprecated/galaga14.wav"></source> Your browser doesn&#8217;t support our audio files </audio> This project is also available on 
 
 <a href="https://github.com/Mutmatt/Pew-Pew" title="HTML5 Galaga" rel="external" target="_blank">GitHub:Mutmatt/Pew-Pew</a>  
 
