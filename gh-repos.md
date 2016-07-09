@@ -17,7 +17,11 @@ layout: default
         <span>{{ repository.date | date: "%b %-d, %Y" }}</span>
         <p>{{ repository.dscription }}</p>
       </div>
+      
       <div class="mdl-card__actions mdl-card--border">
+        <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.stargazers_count}}">stars</div>
+        <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.forks_count}}">call_split</div>
+        <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.watchers_count}}">remove_red_eye</div>
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ repository.html_url | prepend: site.baseurl }}">
           View on GitHub
         </a>
