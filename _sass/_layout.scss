@@ -99,6 +99,7 @@ $postHeader: nth($images, random(length($images)));
 
 .mdl-card__actions {
   position: relative;
+  min-height: 35px;
   .mdl-overlay-fab {
     position: absolute;
     right: 20px;
