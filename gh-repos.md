@@ -24,7 +24,7 @@ layout: default
         </a>
         <div class="mdl-layout-spacer"></div>
         <div id="stars-{{repository.name}}" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.stargazers_count}}">stars</div>
-        <div class="mdl-tooltip" for="id="stars-{{repository.name}}"">
+        <div class="mdl-tooltip" for="id="stars-{{repository.name}}">
           Stars
         </div>
         <div id="forks-{{repository.name}}" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.forks_count}}">call_split</div>
