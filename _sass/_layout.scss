@@ -11,21 +11,50 @@
 
 // ls > imageList.txt
 $images: ('1.jpg', '10.png', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '2.png', '3.png', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg');
-@mixin random-cards() {
-  @each $img in $images {
-    $i: index($images, $img);
-    &:nth-of-type(#{$i}n) .md-card__title {
-      background: url('../images/headers/correct_size/#{$img}') center / cover;
-    }
-  }
-}
+$img1: nth($images, random(length($images)));
+$img2: nth($images, random(length($images)));
+$img3: nth($images, random(length($images)));
+$img4: nth($images, random(length($images)));
+$img5: nth($images, random(length($images)));
+$img6: nth($images, random(length($images)));
+$img7: nth($images, random(length($images)));
+$img8: nth($images, random(length($images)));
+$img9: nth($images, random(length($images)));
+$img0: nth($images, random(length($images)));
 $banner: nth($images, random(length($images)));
-$postHeader: nth($images, random(length($images)));
 
 // Cards styles
 .mdl-card {
-    @include random-cards();
-    
+    &:nth-of-type(1n) .mdl-card__title  {
+        background: url('../images/headers/correct_size/#{$img1}') center / cover;
+    }
+    &:nth-of-type(2n) .mdl-card__title  {
+        background: url('../images/headers/correct_size/#{$img2}') center / cover;
+    }
+    &:nth-of-type(3n) .mdl-card__title  {
+        background: url('../images/headers/correct_size/#{$img3}') center / cover;
+    }
+    &:nth-of-type(4n) .mdl-card__title  {
+        background: url('../images/headers/correct_size/#{$img4}') center / cover;
+    }
+    &:nth-of-type(5n) .mdl-card__title  {
+        background: url('../images/headers/correct_size/#{$img5}') center / cover;
+    }
+    &:nth-of-type(6n) .mdl-card__title  {
+        background: url('../images/headers/correct_size/#{$img6}') center / cover;
+    }
+    &:nth-of-type(7n) .mdl-card__title  {
+        background: url('../images/headers/correct_size/#{$img7}') center / cover;
+    }
+    &:nth-of-type(8n) .mdl-card__title {
+        background: url('../images/headers/correct_size/#{$img8}') center / cover;
+    }
+    &:nth-of-type(9n) .mdl-card__title {
+        background: url('../images/headers/correct_size/#{$img9}') center / cover;
+    }
+    &:nth-of-type(10n) .mdl-card__title {
+        background: url('../images/headers/correct_size/#{$img0}') center / cover;
+    }
     .mdl-card__title {
         color: #fff;
         height: 176px;
