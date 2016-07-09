@@ -5,177 +5,6 @@ date: 2012-11-18T08:59:15+00:00
 layout: post
 guid: http://matterickson.me/?p=229
 permalink: /html5-pew-pew/
-enclosure:
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga0.mp3
-        9612
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga0.wav
-        21240
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga1.mp3
-        7104
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga1.wav
-        14106
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga2.mp3
-        6268
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga2.wav
-        12464
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga3.mp3
-        6268
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga3.wav
-        12174
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga4.mp3
-        48900
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga4.wav
-        130248
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga5.mp3
-        6268
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga5.wav
-        11768
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga6.mp3
-        6268
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga6.wav
-        12648
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga7.mp3
-        21732
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga7.wav
-        54596
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga8.mp3
-        53915
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga8.wav
-        144086
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga9.mp3
-        51826
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga9.wav
-        138092
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga11.mp3
-        9221
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga11.wav
-        96712
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga12.mp3
-        9221
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga12.wav
-        96712
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga13.mp3
-        9221
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga13.wav
-        96712
-        audio/wav
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga14.mp3
-        8069
-        audio/mpeg
-        
-  - |
-    |
-        https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga14.wav
-        43792
-        audio/wav
-        
-spacious_page_layout:
-  - default_layout
 categories:
   - Development
   - Featured
@@ -189,6 +18,10 @@ tags:
 <link href="https://rawgithub.com/Mutmatt/Pew-Pew/v1.0/css/bootstrap-responsive.min.css" type="spreadsheet" />
 
 <link href='https://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css' />
+<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/js/bootstrap.min.js"/>
+<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/js/boss_weapon.js"/>
+<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/js/galaga.js"/>
+<script src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/js/jquery.min.js"/>
 
 <div class="footer" align="center">
   <h1 class="text-info">
@@ -201,50 +34,46 @@ tags:
 </div><canvas id="galaga_canvas" width="400" height="400" style="background-color:black;" tabindex='1'></canvas>
 
 
-
-    
-
-
 <div id="img_source" style="display:none;">
-  <img id="bad1" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/bad2.png?w=750" data-recalc-dims="1" />
-  <img id="bad2" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/bad3.png?w=750" data-recalc-dims="1" />
-  <img id="bad3" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/bad1.png?w=750" data-recalc-dims="1" />
-  <img id="good" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/good.png?w=750" data-recalc-dims="1" />
-  <img id="suri" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/suri.png?w=750" data-recalc-dims="1" />
-  <img id="vim" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/vim.png?w=750" data-recalc-dims="1" />
-  <img id="laser" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/laser1.png?resize=40%2C24"  data-recalc-dims="1" />
-  <img id="boss" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/bc.png?resize=90%2C70"  data-recalc-dims="1" />
-  <img id="explosion" src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/explosion1.png?w=750" data-recalc-dims="1" />
+  <img id="bad1" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/bad2.png?w=750" data-recalc-dims="1" />
+  <img id="bad2" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/bad3.png?w=750" data-recalc-dims="1" />
+  <img id="bad3" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/bad1.png?w=750" data-recalc-dims="1" />
+  <img id="good" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/good.png?w=750" data-recalc-dims="1" />
+  <img id="suri" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/suri.png?w=750" data-recalc-dims="1" />
+  <img id="vim" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/vim.png?w=750" data-recalc-dims="1" />
+  <img id="laser" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/laser1.png?resize=40%2C24"  data-recalc-dims="1" />
+  <img id="boss" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/bc.png?resize=90%2C70"  data-recalc-dims="1" />
+  <img id="explosion" src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/explosion1.png?w=750" data-recalc-dims="1" />
 </div>
 <audio id="sound0">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga0.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga0.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound1">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga1.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga1.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound2">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga2.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga2.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound3">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga3.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga3.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound4">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga4.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga4.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound5">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga5.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga5.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound6">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga6.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga6.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound7">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga7.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga7.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound8">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga8.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga8.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound9">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga9.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga9.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound11">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga11.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga11.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound12">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga12.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga12.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound13">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga13.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga13.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound14">
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga14.mp3"></source>
-<source src="https://raw.githubusercontent.com/Mutmatt/mutmatt.github.io/master/images/pew-pew/galaga14.wav"></source> Your browser doesn&#8217;t support our audio files </audio> This project is also available on 
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga0.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga0.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound1">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga1.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga1.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound2">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga2.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga2.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound3">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga3.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga3.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound4">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga4.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga4.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound5">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga5.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga5.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound6">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga6.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga6.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound7">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga7.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga7.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound8">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga8.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga8.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound9">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga9.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga9.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound11">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga11.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga11.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound12">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga12.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga12.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound13">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga13.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga13.wav"></source> Your browser doesn&#8217;t support our audio files </audio> <audio id="sound14">
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga14.mp3"></source>
+<source src="https://raw.githubusercontent.com/Mutmatt/Pew-Pew/tree/deprecated/galaga14.wav"></source> Your browser doesn&#8217;t support our audio files </audio> This project is also available on 
 
 <a href="https://github.com/Mutmatt/Pew-Pew" title="HTML5 Galaga" rel="external" target="_blank">GitHub:Mutmatt/Pew-Pew</a>  
 
