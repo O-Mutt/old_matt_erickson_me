@@ -2,6 +2,7 @@
 layout: page
 title: About (ME)
 permalink: /about/
+allow_comments: false
 ---
 
 ## Education
