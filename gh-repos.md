@@ -19,6 +19,9 @@ layout: default
       </div>
       
       <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ repository.html_url | prepend: site.baseurl }}">
+          View on GitHub
+        </a>
         <div id="stars-{{repository.name}}" class="material-icons mdl-badge mdl-badge--overlap" data-badge="{{repository.stargazers_count}}">stars</div>
         <div class="mdl-tooltip" for="stars-{{repository.name}}">
           Stars
@@ -31,10 +34,6 @@ layout: default
         <div class="mdl-tooltip" for="watchers-{{repository.name}}">
           Watchers
         </div>
-        <div class="mdl-layout-spacer"></div>
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ repository.html_url | prepend: site.baseurl }}">
-          View on GitHub
-        </a>
       </div>
       <div class="mdl-card__menu">
         <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" id="repository-{{ repository.id }}">
