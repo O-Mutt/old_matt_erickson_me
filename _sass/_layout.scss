@@ -24,7 +24,7 @@ $postHeader: nth($images, random(length($images)));
 
 // Cards styles
 .mdl-card {
-    random-cards();
+    @include random-cards();
     
     .mdl-card__title {
         color: #fff;
