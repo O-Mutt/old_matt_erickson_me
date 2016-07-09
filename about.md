@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: About (ME)
 permalink: /about/
 allow_comments: false
