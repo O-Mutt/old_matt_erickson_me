@@ -14,7 +14,7 @@ $images: ('1.jpg', '10.png', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '
 @mixin random-cards() {
   @each $img in $images {
     $i: index($images, $img);
-    &:nth-of-type(#{$i}n) .md-card__title {
+    &:nth-of-type(#{$i}n) .mdl-card__title {
       background: url('/images/headers/correct_size/#{$img}') center / cover;
     }
   }
