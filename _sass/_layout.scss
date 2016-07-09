@@ -27,8 +27,14 @@ $postHeader: nth($images, random(length($images)));
     @include random-cards();
     
     .mdl-card__title {
+      padding: 0;
       height: 176px;
       color: #fff;
+      .mdl-card__title-text {
+        background-color: rgba(0, 0, 0, .5);
+        width: 100%;
+        padding: 16px;
+      }
       a {
         color: #fff;
         text-decoration: none;
