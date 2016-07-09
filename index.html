@@ -14,12 +14,12 @@ layout: default
 
       <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
         <div class="mdl-card__supporting-text">
-          <h4>{{ post.title }}</h4>
+          <h4><a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
           <p>{{ post.excerpt }}</p>
         </div>
         <div class="mdl-card__actions">
           <a class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" href="{{ post.url | prepend: site.baseurl }}">
-            <i class="material-icons">next</i>
+            <i class="material-icons">arrow_forward</i>
         </a>
         </div>
       </div>
@@ -39,7 +39,7 @@ layout: default
 
     <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--12-col-phone">
       <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
-        <h2 class="mdl-card__title-text">{{ post.title }}</h2>
+        <h2 class="mdl-card__title-text"><a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
       </div>
       <div class="mdl-card__supporting-text">
         <span>{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -47,7 +47,7 @@ layout: default
       </div>
       <div class="mdl-card__actions mdl-card--border">
         <a class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" href="{{ post.url | prepend: site.baseurl }}">
-          <i class="material-icons">next</i>
+          <i class="material-icons">arrow_forward</i>
         </a>
       </div>
       <div class="mdl-card__menu">
@@ -70,7 +70,7 @@ layout: default
 
     <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-desktop mdl-cell--4-col-tablet  mdl-cell--12-col-phone">
       <div class="mdl-card__title" {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}>
-        <h2 class="mdl-card__title-text">{{ post.title }}</h2>
+        <h2 class="mdl-card__title-text"><a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
       </div>
       <div class="mdl-card__supporting-text">
         <span>{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -78,7 +78,7 @@ layout: default
       </div>
       <div class="mdl-card__actions mdl-card--border">
         <a class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" href="{{ post.url | prepend: site.baseurl }}">
-          <i class="material-icons">next</i>
+          <i class="material-icons">arrow_forward</i>
         </a>
       </div>
       <div class="mdl-card__menu">
