@@ -15,7 +15,7 @@ layout: default
       </div>
       <div class="mdl-card__supporting-text">
         <span>{{ repository.date | date: "%b %-d, %Y" }}</span>
-        <p>{{ repository.dscription }}</p>
+        <p>{{ repository.description }}</p>
       </div>
       
       <div class="mdl-card__actions mdl-card--border">
