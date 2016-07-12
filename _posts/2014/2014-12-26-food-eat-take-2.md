@@ -6,9 +6,6 @@ author: Matt Erickson (ME)
 layout: post
 guid: http://matterickson.me/?p=746
 permalink: /food-eat-take-2/
-highlight: true
-spacious_page_layout:
-  - default_layout
 categories:
   - Business
   - Development
