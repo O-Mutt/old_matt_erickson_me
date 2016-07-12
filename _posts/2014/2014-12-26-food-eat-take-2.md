@@ -4,7 +4,6 @@ title: Food.Eat Take 2
 date: 2014-12-26T10:57:24+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=746
 permalink: /food-eat-take-2/
 categories:
   - Business

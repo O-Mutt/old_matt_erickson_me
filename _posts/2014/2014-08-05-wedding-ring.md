@@ -4,7 +4,6 @@ title: Wedding Ring!
 date: 2014-08-05T12:12:51+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=629
 permalink: /wedding-ring/
 spacious_page_layout:
   - default_layout

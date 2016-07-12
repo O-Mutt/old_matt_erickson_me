@@ -4,7 +4,6 @@ title: MVC. Knowing it, using it.
 date: 2013-04-26T10:48:07+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=506
 permalink: /mvc-knowing-it-using-it/
 categories:
   - Development

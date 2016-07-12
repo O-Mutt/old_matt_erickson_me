@@ -3,7 +3,6 @@ id: 32
 title: Jboss Drools Business Rules Engine
 date: 2012-10-10T21:01:31+00:00
 layout: post
-guid: http://matterickson.me/?p=32
 permalink: /jboss-drools-business-rules-engine/
 categories:
   - Java

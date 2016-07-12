@@ -4,7 +4,6 @@ title: Going to ngConf!
 date: 2016-05-03T16:23:01+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=771
 permalink: /going-to-ngconf/
 spacious_page_layout:
   - default_layout

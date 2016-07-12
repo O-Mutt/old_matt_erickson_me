@@ -3,7 +3,6 @@ id: 54
 title: Staying in Touch
 date: 2012-10-10T21:30:03+00:00
 layout: post
-guid: http://matterickson.me/?p=54
 permalink: /staying-in-touch/
 categories:
   - Business

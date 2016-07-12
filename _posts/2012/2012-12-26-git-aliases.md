@@ -4,7 +4,6 @@ title: Git Aliases
 date: 2012-12-26T11:37:40+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=283
 permalink: /git-aliases/
 categories:
   - Development

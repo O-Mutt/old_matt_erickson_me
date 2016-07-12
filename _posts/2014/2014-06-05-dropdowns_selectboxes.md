@@ -4,7 +4,6 @@ title: Custom Styled HTML dropdown/select boxes
 date: 2014-06-05T10:32:38+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=553
 permalink: /dropdowns_selectboxes/
 spacious_page_layout:
   - default_layout

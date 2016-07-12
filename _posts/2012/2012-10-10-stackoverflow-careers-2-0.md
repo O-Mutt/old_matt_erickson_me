@@ -3,7 +3,6 @@ id: 60
 title: Stackoverflow Careers 2.0
 date: 2012-10-10T21:32:19+00:00
 layout: post
-guid: http://matterickson.me/?p=60
 permalink: /stackoverflow-careers-2-0/
 categories:
   - Business

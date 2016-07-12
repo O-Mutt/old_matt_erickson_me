@@ -4,7 +4,6 @@ title: Introductions are in order I think
 date: 2013-02-08T14:32:37+00:00
 author: Tucker Combs
 layout: post
-guid: http://matterickson.me/?p=313
 permalink: /introductions-are-in-order-i-think/
 categories:
   - Development

@@ -3,7 +3,6 @@ id: 52
 title: Another Lesson Learned in Drools
 date: 2012-10-10T21:29:28+00:00
 layout: post
-guid: http://matterickson.me/?p=52
 permalink: /another-lesson-learned-in-drools/
 categories:
   - Development

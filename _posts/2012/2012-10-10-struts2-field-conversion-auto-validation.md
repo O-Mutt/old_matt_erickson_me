@@ -3,7 +3,6 @@ id: 29
 title: Struts2 Field Conversion Auto Validation
 date: 2012-10-10T20:56:47+00:00
 layout: post
-guid: http://matterickson.me/?p=29
 permalink: /struts2-field-conversion-auto-validation/
 categories:
   - Web

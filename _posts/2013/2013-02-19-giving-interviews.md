@@ -4,7 +4,6 @@ title: Giving Interviews
 date: 2013-02-19T10:30:23+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=412
 permalink: /giving-interviews/
 categories:
   - Business

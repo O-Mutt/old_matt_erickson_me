@@ -4,7 +4,6 @@ title: Hibernate Parameter Binding
 date: 2013-01-08T09:43:51+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=299
 permalink: /hibernate-parameter-binding/
 categories:
   - Java
@@ -18,7 +17,8 @@ So, recently, I undertook the task of writing a quick project. From the ground u
   
 **Note:** this class is fairly easy to find with a google search. 
 
-<pre class="brush: java; title: ; notranslate" title="">public class HibernateUtils {
+``` java
+public class HibernateUtils {
 
   private static final SessionFactory s_sessionFactory = buildSessionFactory();
 
@@ -43,8 +43,7 @@ So, recently, I undertook the task of writing a quick project. From the ground u
   public static SessionFactory getSessionFactory() {
     return s_sessionFactory;
   }
-</pre>
-
+```
 
   
 Now is the part you were waiting for, **parameters**. 
@@ -53,45 +52,49 @@ So lets say I have a list of objects with names in my DB. I want object with nam
   
 THIS IS WRONG!!!! 
 
-<pre class="brush: java; title: ; notranslate" title="">Session session = null;
+``` java
+Session session = null;
 session = HibernateUtils.getSessionFactory().openSession();
 session.beginTransaction();
 String hqlQuery = "FROM " + MyObject.class.getName() + " obj WHERE obj.name = '" + name + "'";
-List&lt;MyObject&gt; returnedObjects = 
-  (List&lt;MyObject&gt;) session.createQuery(hqlQuery).list();
-</pre> THIS IS WRONG!!!! 
-
-  
-
+List<MyObject> 
+returnedObjects =  (List<MyObject>) session.createQuery(hqlQuery).list();
+```
+ THIS IS WRONG!
   
 Clearly this is wrong, we should NEVER use any input possibility as a parameter in a query directly. We could have all sorts of funky characters that could break our query (e.g. *, &#8216;, &#8220;, &, ;, etc.). So what ever will we do? Simple, we use it as the built in setParameter in hibernate! 
 
-<pre class="brush: java; title: ; notranslate" title="">Session session = null;
+```java
+Session session = null;
 session = HibernateUtils.getSessionFactory().openSession();
 session.beginTransaction();
 String hqlQuery = "FROM " + MyObject.class.getName() + " obj WHERE obj.name = :name";
-List&lt;MyObject&gt; returnedObjects = 
-  (List&lt;MyObject&gt;) session.createQuery(hqlQuery).setParameter("name", name).list();
-</pre> This is just one example of how to use this parameter setup, there are several more. We can explicitly tell hibernate what type we have like this: 
+List<MyObject> returnedObjects = (List<MyObject>) session.createQuery(hqlQuery).setParameter("name", name).list();
+```
+This is just one example of how to use this parameter setup, there are several more. We can explicitly tell hibernate what type we have like this: 
 
-<pre class="brush: java; title: ; notranslate" title="">List&lt;MyObject&gt; returnedObjects = 
-  (List&lt;MyObject&gt;) session.createQuery(hqlQuery).setString("name", name).list();
-</pre> We can also have multiple parameters like if we want all active objects with name &#8220;world&#8221; (indexed by 0): 
+``` java
+List<MyObject> returnedObjects = (List<MyObject>) session.createQuery(hqlQuery).setString("name", name).list();
+```
+ We can also have multiple parameters like if we want all active objects with name &#8220;world&#8221; (indexed by 0): 
 
-<pre class="brush: java; title: ; notranslate" title="">String hqlQuery = "FROM " + MyObject.class.getName() + " obj WHERE obj.name = ? and obj.active = ?";
-List&lt;MyObject&gt; returnedObjects = 
-  (List&lt;MyObject&gt;) session.createQuery(hqlQuery).setParameter(0, name).setParameter(1, true).list();
-</pre> Even better, we can use objects to match! This is extremely useful if you have a large object with many parameters being set. 
+``` java
+String hqlQuery = "FROM " + MyObject.class.getName() + " obj WHERE obj.name = ? and obj.active = ?";
+List<MyObject> returnedObjects = 
+  (List<MyObject>) session.createQuery(hqlQuery).setParameter(0, name).setParameter(1, true).list();
+``` 
+Even better, we can use objects to match! This is extremely useful if you have a large object with many parameters being set. 
 
-<pre class="brush: java; title: ; notranslate" title="">MyObject searchObject = new MyObject();
+``` java
+MyObject searchObject = new MyObject();
 searchObject.setName("world");
 searchObject.setActive(true);
 searchObject.setSomeOtherAttribute("value");
 String hqlQuery = "FROM " + MyObject.class.getName() +
   " obj WHERE obj.name = :searchObj and obj.active = :searchObj";
-List&lt;MyObject&gt; returnedObjects = 
-  (List&lt;MyObject&gt;) session.createQuery(hqlQuery).setParameter("searchObj", searchObject).list();
-</pre>
+List<MyObject> returnedObjects = 
+  (List<MyObject>) session.createQuery(hqlQuery).setParameter("searchObj", searchObject).list();
+```
 
 
   

@@ -3,7 +3,6 @@ id: 50
 title: Linux Bash TARP!
 date: 2012-10-10T21:20:51+00:00
 layout: post
-guid: http://matterickson.me/?p=50
 permalink: /linux-bash-tarp/
 categories:
   - Linux

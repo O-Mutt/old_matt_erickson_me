@@ -3,7 +3,6 @@ id: 38
 title: Eclipse Hot-Keys
 date: 2012-10-10T21:06:13+00:00
 layout: post
-guid: http://matterickson.me/?p=38
 permalink: /eclipse-hot-keys/
 categories:
   - Development

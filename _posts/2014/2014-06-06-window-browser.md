@@ -4,7 +4,6 @@ title: window.Browser?
 date: 2014-06-06T13:02:18+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=570
 permalink: /window-browser/
 categories:
   - HTML5/CSS3

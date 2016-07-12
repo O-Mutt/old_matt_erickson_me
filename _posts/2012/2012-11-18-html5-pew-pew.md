@@ -3,7 +3,6 @@ id: 229
 title: HTML5 Pew-Pew (Galaga remake)!!!
 date: 2012-11-18T08:59:15+00:00
 layout: post
-guid: http://matterickson.me/?p=229
 permalink: /html5-pew-pew/
 categories:
   - Development

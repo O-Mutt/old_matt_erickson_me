@@ -4,7 +4,6 @@ title: Angular Podcasts
 date: 2014-11-21T18:55:52+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=662
 permalink: /angular-podcasts/
 spacious_page_layout:
   - default_layout

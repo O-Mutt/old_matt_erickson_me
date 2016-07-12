@@ -4,7 +4,6 @@ title: Completely unrelated
 date: 2013-04-02T15:39:34+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=487
 permalink: /completely-unrelated/
 categories:
   - Random

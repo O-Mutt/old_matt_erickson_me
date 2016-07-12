@@ -4,7 +4,6 @@ title: Technovation Challenge Minnesota
 date: 2013-09-27T10:26:31+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=532
 permalink: /technovation-challenge-minnesota/
 categories:
   - Business
