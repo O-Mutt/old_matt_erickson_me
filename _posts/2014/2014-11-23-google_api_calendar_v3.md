@@ -4,7 +4,6 @@ title: Google Api v3 Migration
 date: 2014-11-23T21:00:58+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=666
 permalink: /google_api_calendar_v3/
 spacious_page_layout:
   - default_layout

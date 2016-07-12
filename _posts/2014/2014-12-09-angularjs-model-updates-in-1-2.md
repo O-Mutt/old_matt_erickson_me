@@ -4,7 +4,6 @@ title: Angular Model Updates on blur in 1.2
 date: 2014-12-09T13:54:51+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=686
 permalink: /angularjs-model-updates-in-1-2/
 spacious_page_layout:
   - default_layout

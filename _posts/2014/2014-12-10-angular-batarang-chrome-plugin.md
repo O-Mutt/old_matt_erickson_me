@@ -4,7 +4,6 @@ title: Angular Batarang Chrome Plugin
 date: 2014-12-10T10:40:27+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=726
 permalink: /angular-batarang-chrome-plugin/
 spacious_page_layout:
   - default_layout

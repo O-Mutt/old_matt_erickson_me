@@ -4,7 +4,6 @@ title: State of the Union, angular, software, AiA
 date: 2015-04-06T08:18:27+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=758
 permalink: /state-of-the-union-angular-software-aia/
 spacious_page_layout:
   - default_layout

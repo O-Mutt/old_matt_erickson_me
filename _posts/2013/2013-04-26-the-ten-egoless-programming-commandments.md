@@ -4,7 +4,6 @@ title: 'The Ten Commandments of Egoless Programming as told by Jerry Weinberg: T
 date: 2013-04-26T14:11:52+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=512
 permalink: /the-ten-egoless-programming-commandments/
 categories:
   - Business

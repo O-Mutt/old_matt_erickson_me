@@ -4,7 +4,6 @@ title: Sanke Kegs
 date: 2013-09-27T11:41:38+00:00
 author: Matt Erickson (ME)
 layout: post
-guid: http://matterickson.me/?p=539
 permalink: /sanke-kegs/
 categories:
   - Beer Brewing
