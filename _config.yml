@@ -1,8 +1,8 @@
 title: MattErickson (ME)
 email: matt@matterickson.me
-description: Sofware Engineering a Better Tomorrow
+description: A personal and professional blog about software, beer, the world, and so much more.
 baseurl: ""
-url: "https://mutmatt.github.io"
+url: "http://matterickson.com"
 
 #analytics
 google_analytics: 'UA-38520661-2'
@@ -11,6 +11,8 @@ google_analytics: 'UA-38520661-2'
 twitter_username: MutMatt
 github_username: MutMatt
 linkedin_username: matthewerickson
+twitter:
+  username: MutMatt
 
 # google_play: ''
 # google_plus_com: ''      # Community link
@@ -28,3 +30,7 @@ disqus_shortname: 'MutMatt'
 
 # Build settings
 markdown: kramdown
+
+# gems
+gems:
+  - jekyll-seo-tag
