@@ -1,7 +1,7 @@
 <div class="page-content">
   <div class="mdl-grid">
     {% for post in site.posts %}
-      {% if include.filter_by == null or post.categories contains {{include.category}} %}
+      {% if include.category == null or post.categories contains {{include.category}} %}
         {% if post.highlight %}
         
           <div class="section-highlight section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
