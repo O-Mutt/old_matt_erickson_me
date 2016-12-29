@@ -24,7 +24,7 @@ twitter:
 header_type: drawer       # values [ drawer, default ]
 post_type: highlight        # values [ highlight, default ]
 pagination_type: ops      # values [ ops, default ]
-paginate: 10
+
 
 disqus: true
 disqus_shortname: 'MutMatt'
