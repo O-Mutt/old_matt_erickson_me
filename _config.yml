@@ -3,6 +3,7 @@ email: matt@matterickson.me
 description: A personal and professional blog about software, beer, the world, and so much more.
 baseurl: ""
 url: "http://matterickson.com"
+repository: "Mutmatt/mutmatt.github.io"
 
 #analytics
 google_analytics: 'UA-38520661-2'
