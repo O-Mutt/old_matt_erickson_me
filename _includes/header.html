@@ -29,11 +29,12 @@
 </header>
 
 <div class="mdl-layout__drawer">
-  <span class="mdl-layout-title">Menu</span>
+  <span class="mdl-layout-title"><a href="{{ site.url }}">{{ site.title }}</a></span>
   <nav class="mdl-navigation">
-  {% for page in site.pages %}
-    {% if page.title and !page.exclude_in_main_menu %}
-    <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+  {% assign menu_pages = (site.pages | sort: 'menu_order') %}
+  {% for page in menu_pages %}
+    {% if page.title and page.exclude_in_main_menu != true %}
+      <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
     {% endif %}
   {% endfor %}
   </nav>

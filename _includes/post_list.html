@@ -9,7 +9,10 @@
 
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
-                <h4><a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+                <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+                <span>{{ post.date | date: "%b %-d, %Y" }}</span><br/>
+                <span>Categories: {{ post.categories | array_to_sentence_string }}</span><br/>
+                <span>Tags: {{ post.tags | array_to_sentence_string }}</span><br/>
                 <p>{{ post.excerpt }}</p>
               </div>
               <div class="mdl-card__actions">
@@ -34,7 +37,9 @@
               <h2 class="mdl-card__title-text"><a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
             </div>
             <div class="mdl-card__supporting-text">
-              <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+              <span>{{ post.date | date: "%b %-d, %Y" }}</span><br/>
+              <span>Categories: {{ post.categories | array_to_sentence_string }}</span><br/>
+              <span>Tags: {{ post.tags | array_to_sentence_string }}</span><br/>
               <p>{{ post.excerpt }}</p>
             </div>
             <div class="mdl-card__actions mdl-card--border">
