@@ -18,10 +18,10 @@ Ok, maybe I'm saying that to myself.  In either case, long time no talk, interne
 
 This change is relatively minimal to stop the theming from getting injected.  You inject `$mdThemingProvider` into your app config and then call the function `disableTheming();` Now i will mention that we are passing a true as the code itself looks to pass that so we followed suit, worst case it gets ignored.
 
-`angular.module('myApp', ['ngMaterial'])\r\n
-  .config(function($mdThemingProvider) {\r\n
-    $mdThemingProvider.disableTheming();\r\n
-  });\r\n
+`angular.module('myApp', ['ngMaterial'])  
+  .config(function($mdThemingProvider) {  
+    $mdThemingProvider.disableTheming();  
+  });  
 `
 
 Well, that is all I have for today.  God's speed.
