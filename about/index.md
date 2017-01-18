@@ -33,6 +33,6 @@ Fun
 
 Contact (ME)
 =====
-  ~(ME)
-  Matthew O. Erickson
-  [Matt@MattErickson.me](mailto:Matt@MattErickson.me)
+  ~(ME)  
+  Matthew O. Erickson  
+  [Matt@MattErickson.me](mailto:Matt@MattErickson.me)  
