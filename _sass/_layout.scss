@@ -1,126 +1,109 @@
 //
 // Generals styles for material design light elements
 //
-
-// Page container
-
-.page-content{
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 // ls > imageList.txt
 $images: ('1.jpg', '10.png', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '2.png', '3.png', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg');
 @mixin random-cards() {
-  @each $img in $images {
-    $i: index($images, $img);
-    &:nth-of-type(#{$i}n) .mdl-card__title {
-      background: url('/images/headers/correct_size/#{$img}') center / cover;
+    @each $img in $images {
+        $i: index($images, $img);
+        &:nth-of-type(#{$i}n) .mdl-card__title {
+            background: url('/images/headers/correct_size/#{$img}') center / cover;
+        }
     }
-  }
 }
-$banner: nth($images, random(length($images)));
-$postHeader: nth($images, random(length($images)));
 
+$banner: nth($images,
+random(length($images)));
+$postHeader: nth($images,
+random(length($images)));
 // Cards styles
 .mdl-card {
     @include random-cards();
-    
     .mdl-card__title {
-      padding: 0;
-      height: 176px;
-      color: #fff;
-      .mdl-card__title-text {
-        background-color: rgba(0, 0, 0, .5);
-        width: 100%;
-        padding: 16px;
-      }
-      a {
+        padding: 0;
+        height: 176px;
         color: #fff;
-        text-decoration: none;
-      }
+        .mdl-card__title-text {
+            background-color: rgba(0, 0, 0, .5);
+            width: 100%;
+            padding: 16px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
     }
-
-  .mdl-card__supporting-text  {
-    max-height: 300px;
-    min-height: 39px; //one line of text, currently (7/9/16)
-    & > span { 
-      color: #9F9F9F;
+    .mdl-card__supporting-text {
+        max-height: 300px;
+        min-height: 39px; //one line of text, currently (7/9/16)
+        &>span {
+            color: #9F9F9F;
+        }
     }
-  }
-
-  .mdl-card__actions {
-    position: relative;
-    min-height: 55px;
-    .mdl-overlay-fab {
-      position: absolute;
-      right: 20px;
-      top: -30px;
+    .mdl-card__actions {
+        position: relative;
+        min-height: 55px;
+        .mdl-overlay-fab {
+            position: absolute;
+            right: 20px;
+            top: -30px;
+        }
+        .mdl-fab-container-right {
+            display: inline-block;
+            padding-top: 5px;
+        }
     }
-    .mdl-fab-container-right {
-      display: inline-block;
-      float: right;
-      padding-top: 5px;
+    .mdl-card__menu {
+        color: #fff;
     }
-  }
-
-  .mdl-card__menu {
-    color: #fff;
-  }
 }
 
-.post-button{
-  position: absolute;
-  right: 15px;
-  bottom: 25px;
+.post-button {
+    position: absolute;
+    right: 15px;
+    bottom: 25px;
 }
 
 // Index highlight card
-
 .section-highlight {
-  position: relative;
-  margin: 10px;
-
-  .mdl-card__supporting-text {
-    margin: 40px;
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    padding: 0;
-    color: inherit;
-    width: calc(100% - 80px);
-  }
-
-  .mdl-card__actions {
-    border-top: 1px solid rgba(0, 0, 0, 0.12);
-    margin: 0;
-    padding: 4px 40px;
-    color: inherit;
-  }
-
-  header {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    min-height: 200px;
-    background: url('../images/headers/correct_size/#{$banner}') center / cover;
-  }
-
-  button {
-    position: absolute;
-    z-index: 99;
-    top: 8px;
-    right: 8px;
-  }
-
+    position: relative;
+    margin: 10px;
+    .mdl-card__supporting-text {
+        margin: 40px;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        padding: 0;
+        color: inherit;
+        width: calc(100% - 80px);
+    }
+    .mdl-card__actions {
+        border-top: 1px solid rgba(0, 0, 0, 0.12);
+        margin: 0;
+        padding: 4px 40px;
+        color: inherit;
+    }
+    header {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        min-height: 200px;
+        background: url('../images/headers/correct_size/#{$banner}') center / cover;
+    }
+    button {
+        position: absolute;
+        z-index: 99;
+        top: 8px;
+        right: 8px;
+    }
 }
