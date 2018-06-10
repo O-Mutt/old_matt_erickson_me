@@ -19,7 +19,7 @@ tags:
 WebTask.io, MN UFC, nodejs
 =====
 I have noticed something that you probably have as well. I have zero content for 2018... well save the one post about standups.
-I want to and have done something about that. I recently learned about webtask.io, an (Auth0)[auth0.com] product. It is a FaaS (function as a service) or serverless.
+I want to and have done something about that. I recently learned about webtask.io, an [Auth0](auth0.com) product. It is a FaaS (function as a service) or serverless.
 FaaS is a relatively new idea in the cloud computing space. It allows for development, running, managing and maintatining applications from a server-side perspective without the need to build out costly, (and from some perspectives) less interesting infrastructure.
 The real use case for FaaS is when you have a known "on-demand" type request that you would like to run without the build out.
     - Streaming content
