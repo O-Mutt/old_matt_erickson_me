@@ -10,6 +10,8 @@ categories:
 tags:
   - MNUFC
   - Soccer
+excerpt:
+  Looking to snap a two match losing streak, Minnesota United FC hosts Western Conference leaders Sporting Kansas City at TCF Bank stadium.
 ---
 <div class='soccer-video-wrapper'>
 <iframe class='soccer-video' width='100%' height='auto' frameborder='0' allowfullscreen src="https://www.mnufc.com/iframe-video?brightcove_id=5787393697001&brightcove_player_id=default&brightcove_account_id=5534894110001"></iframe>

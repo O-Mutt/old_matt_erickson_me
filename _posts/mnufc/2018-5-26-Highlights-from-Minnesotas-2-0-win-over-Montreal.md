@@ -10,6 +10,8 @@ categories:
 tags:
   - MNUFC
   - Soccer
+excerpt:
+  Minnesota United FC hosts Montreal Impact at TCF Bank Stadium as both sides look for their first victory since May 5.
 ---
 <div class='soccer-video-wrapper'>
 <iframe class='soccer-video' width='100%' height='auto' frameborder='0' allowfullscreen src="https://www.mnufc.com/iframe-video?brightcove_id=5790101196001&brightcove_player_id=default&brightcove_account_id=5534894110001"></iframe>

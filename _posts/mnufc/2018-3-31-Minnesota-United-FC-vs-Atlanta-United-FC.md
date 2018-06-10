@@ -10,6 +10,8 @@ categories:
 tags:
   - MNUFC
   - Soccer
+excerpt:
+  Last year’s expansion teams face off for the first time this season when Atlanta United FC travel north to square off with Minnesota United FC.
 ---
 <div class='soccer-video-wrapper'>
 <iframe class='soccer-video' width='100%' height='auto' frameborder='0' allowfullscreen src="https://www.mnufc.com/iframe-video?brightcove_id=5761624562001&brightcove_player_id=default&brightcove_account_id=5534894110001"></iframe>

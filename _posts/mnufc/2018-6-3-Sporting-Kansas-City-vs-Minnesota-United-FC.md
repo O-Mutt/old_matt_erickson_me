@@ -10,6 +10,8 @@ categories:
 tags:
   - MNUFC
   - Soccer
+excerpt:
+  Looking to get back atop the Western Conference, Sporting Kansas City welcome Minnesota United to Children's Mercy Park.
 ---
 <div class='soccer-video-wrapper'>
 <iframe class='soccer-video' width='100%' height='auto' frameborder='0' allowfullscreen src="https://www.mnufc.com/iframe-video?brightcove_id=5793133008001&brightcove_player_id=default&brightcove_account_id=5534894110001"></iframe>

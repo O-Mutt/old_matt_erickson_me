@@ -10,6 +10,8 @@ categories:
 tags:
   - MNUFC
   - Soccer
+excerpt:
+  The San Jose Earthquakes are looking for a win at TCF Bank Stadium as they face Minnesota United FC.
 ---
 <div class='soccer-video-wrapper'>
 <iframe class='soccer-video' width='100%' height='auto' frameborder='0' allowfullscreen src="https://www.mnufc.com/iframe-video?brightcove_id=5784092647001&brightcove_player_id=default&brightcove_account_id=5534894110001"></iframe>
