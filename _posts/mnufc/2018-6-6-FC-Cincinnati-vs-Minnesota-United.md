@@ -1,6 +1,6 @@
 ---
-title: FC Cincinnati vs. Minnesota United | June 6, 2018,
-date: Wed Jun 06 2018 00:00:00 GMT+0000 (UTC),
+title: FC Cincinnati vs. Minnesota United | June 6, 2018
+date: Wed Jun 06 2018 00:00:00 GMT+0000 (UTC)
 permalink: /2018_6_6_fc_cincinnati_vs_minnesota_united 
 author: Matt Erickson (ME)
 layout: post

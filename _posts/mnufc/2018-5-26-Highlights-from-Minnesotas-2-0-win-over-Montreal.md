@@ -1,5 +1,5 @@
 ---
-title: Highlights from Minnesotas 2-0 win over Montreal.
+title: Highlights from Minnesotas 2-0 win over Montreal
 date: Sat May 26 2018 00:00:00 GMT+0000 (UTC)
 permalink: /2018_5_26_highlights_from_minnesotas_2_0_win_over_montreal_md
 author: Matt Erickson (ME)

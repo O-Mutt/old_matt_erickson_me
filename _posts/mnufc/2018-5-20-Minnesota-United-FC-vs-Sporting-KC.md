@@ -1,6 +1,6 @@
 ---
-title: Minnesota United FC vs Sporting KC | May 20, 2018,
-date: Sun May 20 2018 00:00:00 GMT+0000 (UTC),
+title: Minnesota United FC vs Sporting KC | May 20, 2018
+date: Sun May 20 2018 00:00:00 GMT+0000 (UTC)
 permalink: /2018_5_20_minnesota_united_fc_vs_sporting_kc 
 author: Matt Erickson (ME)
 layout: post

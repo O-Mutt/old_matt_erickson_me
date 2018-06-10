@@ -1,6 +1,6 @@
 ---
-title: Sporting Kansas City vs. Minnesota United FC | June 3, 2018,
-date: Sun Jun 03 2018 00:00:00 GMT+0000 (UTC),
+title: Sporting Kansas City vs. Minnesota United FC | June 3, 2018
+date: Sun Jun 03 2018 00:00:00 GMT+0000 (UTC)
 permalink: /2018_6_3_sporting_kansas_city_vs_minnesota_united_fc 
 author: Matt Erickson (ME)
 layout: post

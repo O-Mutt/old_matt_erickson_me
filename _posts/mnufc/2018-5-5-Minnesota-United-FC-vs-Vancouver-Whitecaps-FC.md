@@ -1,6 +1,6 @@
 ---
-title: Minnesota United FC vs. Vancouver Whitecaps FC | May 5, 2018,
-date: Sat May 05 2018 00:00:00 GMT+0000 (UTC),
+title: Minnesota United FC vs. Vancouver Whitecaps FC | May 5, 2018
+date: Sat May 05 2018 00:00:00 GMT+0000 (UTC)
 permalink: /2018_5_5_minnesota_united_fc_vs_vancouver_whitecaps_fc_md 
 author: Matt Erickson (ME)
 layout: post

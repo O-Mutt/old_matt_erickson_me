@@ -1,6 +1,6 @@
 ---
-title: Minnesota United FC vs Atlanta United FC | March 31, 2018,
-date: Sat Mar 31 2018 00:00:00 GMT+0000 (UTC),
+title: Minnesota United FC vs Atlanta United FC | March 31, 2018
+date: Sat Mar 31 2018 00:00:00 GMT+0000 (UTC)
 permalink: /2018_3_31_minnesota_united_fc_vs_atlanta_united_fc 
 author: Matt Erickson (ME)
 layout: post

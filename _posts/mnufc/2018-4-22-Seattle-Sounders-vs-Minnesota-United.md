@@ -1,6 +1,6 @@
 ---
-title: Seattle Sounders vs. Minnesota United | April 22, 2018,
-date: Sun Apr 22 2018 00:00:00 GMT+0000 (UTC),
+title: Seattle Sounders vs. Minnesota United | April 22, 2018
+date: Sun Apr 22 2018 00:00:00 GMT+0000 (UTC)
 permalink: /2018_4_22_seattle_sounders_vs_minnesota_united_md 
 author: Matt Erickson (ME)
 layout: post

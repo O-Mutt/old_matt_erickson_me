@@ -1,6 +1,6 @@
 ---
-title: Portland Timbers vs Minnesota United FC | April 14, 2018,
-date: Sun Apr 15 2018 00:00:00 GMT+0000 (UTC),
+title: Portland Timbers vs Minnesota United FC | April 14, 2018
+date: Sun Apr 15 2018 00:00:00 GMT+0000 (UTC)
 permalink: /2018_4_15_portland_timbers_vs_minnesota_united_fc_md 
 author: Matt Erickson (ME)
 layout: post

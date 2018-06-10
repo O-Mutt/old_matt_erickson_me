@@ -1,6 +1,6 @@
 ---
-title: Minnesota United FC vs Houston Dynamo | April 28, 2018,
-date: Sat Apr 28 2018 00:00:00 GMT+0000 (UTC),
+title: Minnesota United FC vs Houston Dynamo | April 28, 2018
+date: Sat Apr 28 2018 00:00:00 GMT+0000 (UTC)
 permalink: /2018_4_28_minnesota_united_fc_vs_houston_dynamo_md 
 author: Matt Erickson (ME)
 layout: post
