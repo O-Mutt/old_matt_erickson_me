@@ -168,7 +168,13 @@ Now this next part is all going to be wrapped in a `_.each(newPosts, function(po
 we format the file header for jekyll using the post data:
 
 ``` javascript
-var postText = `---\r\ntitle: ${post.title}\r\ndate: ${post.date}\r\npermalink: /${post.permalink}\r\nexcerpt:${post.excerpt}\r\n${postHeader}\r\n${post.video}`;
+var postText = `---
+title: ${post.title}
+date: ${post.date}
+permalink: ${post.permalink}
+excerpt:${post.excerpt}
+${postHeader}
+${post.video}`;
 ```
 
 Now we'll send all the new files to github. Based on github's api docs we need to base64 encode the content of the post. Since we are currently (in this contenxt) in a for each loop we will push the promises into an array to wait on later.
@@ -183,7 +189,7 @@ ghPromises.push(rp.put({
   },
   json: true,
   method: 'PUT',
-  uri: `https://api.github.com/repos/Mutmatt/mutmatt.github.io/contents/_posts/mnufc/` + post.filename,
+  uri: `https://api.github.com/repos/Mutmatt/mutmatt.github.io/contents/_posts/mnufc/{$post.filename`,
   body: {
     path: '_posts/mnufc',
     message: post.title,
