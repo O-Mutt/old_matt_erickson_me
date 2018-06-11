@@ -64,7 +64,10 @@ tags:
 and then on each highlight video page there is an embed link that looked the exact same, save a video ID:
 
 ``` javascript
-let iframeUrlTemplate = `<div class='soccer-video-wrapper'>\r\n<iframe class='soccer-video' width='100%' height='auto' frameborder='0' allowfullscreen src="https://www.mnufc.com/iframe-video?brightcove_id={replaceMe}&brightcove_player_id=default&brightcove_account_id=5534894110001"></iframe>\r\n</div>`;
+let iframeUrlTemplate = 
+`<div class='soccer-video-wrapper'>
+  <iframe class='soccer-video' width='100%' height='auto' frameborder='0' allowfullscreen src="https://www.mnufc.com/iframe-video?brightcove_id={replaceMe}&brightcove_player_id=default&brightcove_account_id=5534894110001"></iframe>
+  </div>`;
 ```
 
 I added a keyword with some curries `{replaceMe}` to be replaced lated in the code.
